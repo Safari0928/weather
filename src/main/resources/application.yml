@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: weather-service
+
+server:
+  port: 8083
+
+# OpenWeatherMap API Key
+openweathermap:
+  api:
+    key: e36bb96c7f04892175eaf255dfe6d4a1
+
+# OpenWeatherMap API URLs
+api:
+  weather: "https://api.openweathermap.org/data/3.0/onecall"
+  climate_forecast: "https://pro.openweathermap.org/data/2.5/forecast/climate"
+  geo: "http://api.openweathermap.org/geo/1.0/direct"
+
+
